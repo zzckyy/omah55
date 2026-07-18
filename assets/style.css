@@ -1,11 +1,12 @@
 
 :root {
-    --brand: #5f3dc4;
+    --brand: #3dc473;
     --brand-soft: #eff0ff;
     --surface: rgba(255, 255, 255, 0.95);
     --shadow: rgba(95, 61, 196, 0.14);
     --text: #222222;
     --hero-overlay: rgba(20, 10, 56, 0.56);
+    --text-reverse: white;
 }
 
 html {
@@ -16,6 +17,24 @@ body {
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     color: var(--text);
     background: #f7f8ff;
+}
+
+.button{
+    background-color: var(--brand);
+    color: var(--text-reverse);
+    font-weight: bold;
+    border-radius: 24px;
+}
+
+.is-active{
+    border-bottom: 3px solid var(--brand);
+    background-color: transparent !important;
+}
+
+
+
+.fa, .fa-solid{
+    color: var(--brand) !important;
 }
 
 .navbar {
