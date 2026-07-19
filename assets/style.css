@@ -40,7 +40,7 @@ body {
 }
 
 .brand {
-    color: var(--brand);
+    color: var(--brand) !important;
 }
 
 .is-primary {
