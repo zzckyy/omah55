@@ -14,6 +14,6 @@ loadComponent("navbar", "./components/navbar.html", () => {
         navMenu.classList.toggle('show');
     });
 });
-loadComponent("footer", "/components/footer.html");
+loadComponent("footer", "./components/footer.html");
 
 
