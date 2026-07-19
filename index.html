@@ -11,32 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
-        <div class="container">
-            <div class="navbar-brand">
-                <a class="navbar-item logo-text">Omah55</a>
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-
-            <div id="navbarMenu" class="navbar-menu">
-                <div class="navbar-end">
-                    <a class="navbar-item is-active" href="index.html">Beranda</a>
-                    <a class="navbar-item" href="program.html">Program</a>
-                    <a class="navbar-item" href="about.html">Tentang</a>
-                    <a class="navbar-item" href="contact.html">Kontak</a>
-                    <div class="navbar-item">
-                        <div class="buttons">
-                            <a class="button is-primary is-rounded" href="contact.html">Daftar Sekarang</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <div id="navbar"></div>
 
     <section class="hero has-bg-image is-medium is-bold">
         <div class="hero-body">
@@ -118,10 +93,10 @@
                     <div class="box program-card">
                         <h3 class="title is-4">Pelajaran Populer</h3>
                         <div class="tags are-medium is-flex is-flex-wrap-wrap mt-4">
-                            <span class="tag is-light has-text-weight-semibold">Baca dan Tulis</span>
-                            <span class="tag is-light has-text-weight-semibold">Mengaji</span>
-                            <span class="tag is-light has-text-weight-semibold">Renang</span>
-                            <span class="tag is-light has-text-weight-semibold">SD Umum</span>
+                            <span class="tag has-text-weight-semibold">Baca dan Tulis</span>
+                            <span class="tag has-text-weight-semibold">Mengaji</span>
+                            <span class="tag has-text-weight-semibold">Renang</span>
+                            <span class="tag has-text-weight-semibold">SD Umum</span>
                         </div>
                     </div>
                 </div>
@@ -158,30 +133,9 @@
         </div>
     </section>
 
-    <footer class="footer has-background-white-ter">
-        <div class="container">
-            <div class="columns is-vcentered is-mobile">
-                <div class="column">
-                    <p class="title is-5 brand">Omah55</p>
-                    <p>Belajar Lebih Mudah, Santai, dan Berfokus.</p>
-                </div>
-                <div class="column has-text-right-touch">
-                    <a class="button is-primary" href="contact.html">Hubungi Kami</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer"></div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const burger = document.querySelector('.navbar-burger');
-            const menu = document.getElementById(burger.dataset.target);
-            burger.addEventListener('click', () => {
-                burger.classList.toggle('is-active');
-                menu.classList.toggle('is-active');
-            });
-        });
-    </script>
+    <script src="scripts/component.js"></script>
 </body>
 
 </html>

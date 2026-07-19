@@ -13,8 +13,13 @@ html {
     scroll-behavior: smooth;
 }
 
-p, h1, h2{
+p, h1, h2, h3, h4, h5, hr{
     font-display: swap;
+    color: var(--text) !important;
+}
+
+.box{
+    background-color: var(--brand-soft) !important;
 }
 
 body {
@@ -166,5 +171,13 @@ body {
 
     .has-text-right-touch {
         text-align: left;
+    }
+
+    .navbar-end{
+        display: none;
+    }
+
+    .show{
+        display: block;
     }
 }
