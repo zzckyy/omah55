@@ -37,10 +37,6 @@ body {
     border-radius: 24px;
 }
 
-.hero-left{
-    width: 50%;
-}
-
 .brand {
     color: var(--brand) !important;
 }
