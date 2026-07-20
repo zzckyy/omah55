@@ -15,9 +15,10 @@ async function loadData() {
   data.forEach(item => {
     table.innerHTML += `
       <tr>
-        <td>${item.nama}</td>
-        <td>${item.mapel}</td>
-        <td>${item.jadwal}</td>
+        <td>${item.Nama}</td>
+        <td>${item.Hari}</td>
+        <td>${item.Waktu}</td>
+        <td>${item.Program}</td>
       </tr>
     `
   })
